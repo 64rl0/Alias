@@ -318,7 +318,10 @@ alias gall='git add .'
 alias gc='git commit -m'
 
 #
-alias gp='git push origin HEAD'
+alias gps='git push origin HEAD'
+
+#
+alias gpl='git pull origin HEAD'
 
 
 # -------------------
