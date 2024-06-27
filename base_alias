@@ -331,6 +331,9 @@ alias gall='git add .'
 alias gc='git commit -m'
 
 #
+alias gfch='git fetch'
+
+#
 alias gps='git push origin HEAD'
 
 #
