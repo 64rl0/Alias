@@ -305,6 +305,19 @@ alias reboot='sudo /sbin/reboot'
 alias shutdown='sudo /sbin/shutdown'
 
 
+# ---------------
+# Package Manager
+# ---------------
+# this cmds need sudo to run
+if [ "$(id -u)" -ne 0 ]; then
+    # yum always as sudo
+    alias yum='sudo yum'
+
+    # apt always as sudo
+    alias apt='sudo apt'
+fi
+
+
 # ---
 # Git
 # ---
