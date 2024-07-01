@@ -46,6 +46,11 @@ alias fixstty='stty sane'
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+alias .......='cd ../../../../../../'
+alias ........='cd ../../../../../../../'
+alias .........='cd ../../../../../../../../'
 
 # Check if 'bat' is installed and configure 'cat' alias
 if bat --version >/dev/null 2>&1; then
