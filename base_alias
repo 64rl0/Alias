@@ -175,9 +175,6 @@ alias fsock='sudo lsof -i -P -n | head -n 1; lsock | grep -F -i'
 # My external ip
 alias ipext='echo -e "$(curl -s http://ipinfo.io/ip)"'
 
-# All ipfw rules inc/ blocked IPs
-alias shblocked='sudo ipfw list'
-
 
 # ------------------------------
 # File and Directory Permissions
