@@ -89,7 +89,7 @@ alias less='less -FRXc'
 alias wget='wget -c'
 
 # Quickly search for file in current directory
-alias qfind='sudo find . -iname'
+alias ff='sudo find . -iname'
 
 
 # ----
