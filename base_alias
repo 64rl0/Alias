@@ -238,6 +238,9 @@ fi
 # ---
 # Git
 # ---
+# lazygit
+alias lg='lazygit'
+
 #
 alias gs='git status'
 
