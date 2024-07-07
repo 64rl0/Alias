@@ -36,6 +36,9 @@ alias shell='echo -e "\033[1;33mSHELL:\033[0m"; echo -e "Shell in Use: $0\nShell
 # Same as shell
 alias path='shell'
 
+# Check terminal supports 24-bit colors
+alias truecolor='printf "\x1b[38;2;255;100;0mTRUECOLOR (should be red)\x1b[0m\n"'
+
 # Restore terminal settings when screwed up
 alias fixstty='stty sane'
 
