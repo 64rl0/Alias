@@ -328,6 +328,17 @@ alias tms='tm new-session'
 alias tmsn='tms -s'
 
 
+# ---------
+# Scripting
+# ---------
+# shfmt - a shell parser, formatter, and interpreter
+# check format
+alias shfmtc='shfmt -d -i 4 -bn -kp ./'
+
+# run formatter
+alias shfmtf='shfmt -l -i 4 -bn -kp -w ./'
+
+
 # -------------
 # Date and Time
 # -------------
