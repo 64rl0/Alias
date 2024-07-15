@@ -1,4 +1,4 @@
-# dev-dsk-carlogtt-1c-3b97274a.eu-west-1.amazon.com_alias
+# dev-dsk-carlogtt-1c-3117ddbb.eu-west-1.amazon.com_alias
 # vim: ft=sh
 
 #   __|    \    _ \  |      _ \   __| __ __| __ __|
@@ -6,7 +6,7 @@
 # \___| _/  _\ _|_\ ____| \___/ \___|   _|     _|
 
 # ----------------------------------------------------------------------
-# Description: dev-dsk-carlogtt-1c-3b97274a.eu-west-1.amazon.com aliases
+# Description: dev-dsk-carlogtt-1c-3117ddbb.eu-west-1.amazon.com aliases
 # ----------------------------------------------------------------------
 
 
@@ -14,4 +14,5 @@
 # Amazon Specific Commands
 # ------------------------
 # Show DevDsk identity
-alias devdsk='echo -e "DevDsk6 -> $(uname -n)"'
+alias devdsk='echo -e "DevDsk7 -> $(uname -n)"'
+
