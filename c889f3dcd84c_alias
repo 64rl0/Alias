@@ -19,5 +19,8 @@ alias devdsk5='ssh devdsk5'
 # ssh into DevDsk6
 alias devdsk6='ssh devdsk6'
 
+# ssh into DevDsk7
+alias devdsk7='ssh devdsk7'
+
 # ssh into favourite DevDsk
-alias devdsk='devdsk6'
+alias devdsk='devdsk7'
