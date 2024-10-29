@@ -1,0 +1,26 @@
+# 80a99743895b_alias
+# vim: ft=sh
+
+#   __|    \    _ \  |      _ \   __| __ __| __ __|
+#  (      _ \     /  |     (   | (_ |    |      |
+# \___| _/  _\ _|_\ ____| \___/ \___|   _|     _|
+
+# ---------------------------------
+# Description: 80a99743895b aliases
+# ---------------------------------
+
+
+# ------------------------
+# Amazon Specific Commands
+# ------------------------
+# ssh into DevDsk5
+alias devdsk5='ssh devdsk5'
+
+# ssh into DevDsk6
+alias devdsk6='ssh devdsk6'
+
+# ssh into DevDsk7
+alias devdsk7='ssh devdsk7'
+
+# ssh into favourite DevDsk
+alias devdsk='devdsk7'
