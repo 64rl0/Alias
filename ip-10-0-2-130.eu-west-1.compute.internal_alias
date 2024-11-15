@@ -1,0 +1,17 @@
+# ip-10-0-2-130.eu-west-1.compute.internal_alias
+# vim: ft=sh
+
+#   __|    \    _ \  |      _ \   __| __ __| __ __|
+#  (      _ \     /  |     (   | (_ |    |      |
+# \___| _/  _\ _|_\ ____| \___/ \___|   _|     _|
+
+# -------------------------------------------------------------
+# Description: ip-10-0-2-130.eu-west-1.compute.internal aliases
+# -------------------------------------------------------------
+
+
+# ------------------------
+# Amazon Specific Commands
+# ------------------------
+# Show DevDsk identity
+alias devdsk='echo -e "DevDsk8 -> $(uname -n)"'
