@@ -13,6 +13,9 @@
 # ------------------------
 # Amazon Specific Commands
 # ------------------------
+# ssh into favourite DevDsk
+alias devdsk='devdsk7'
+
 # ssh into DevDsk5
 alias devdsk5='ssh devdsk5'
 
@@ -22,5 +25,6 @@ alias devdsk6='ssh devdsk6'
 # ssh into DevDsk7
 alias devdsk7='ssh devdsk7'
 
-# ssh into favourite DevDsk
-alias devdsk='devdsk7'
+# axe into CDM i-0e025eaf7367a5f08 DevDsk8
+alias devdsk8='ssh devdsk8'
+
