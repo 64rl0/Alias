@@ -272,38 +272,42 @@ alias gpl='git pull origin HEAD'
 # -------------------
 # Brazil Build System
 # -------------------
-#
+# brazil-build
 alias bb='brazil-build'
 
-#
-alias bba='bb apollo-pkg'
+# brazil-build apollo-pkg
+alias bba='brazil-build apollo-pkg'
 
-#
+# brazil-runtime-exec
 alias bre='brazil-runtime-exec'
 
-#
+# brazil-recursive-cmd
 alias brc='brazil-recursive-cmd'
 
-#
-alias brcall='brc --allPackages'
+# brazil-recursive-cmd --allPackages
+alias brcall='brazil-recursive-cmd --allPackages'
 
-#
-alias brcbb='brc brazil-build'
+# brazil-recursive-cmd brazil-build
+alias brcbb='brazil-recursive-cmd brazil-build'
 
-#
-alias brcbba='brcbb apollo-pkg'
+# brazil-recursive-cmd brazil-build apollo-pkg
+alias brcbba='brazil-recursive-cmd brazil-build apollo-pkg'
 
-#
-alias brcbball='brcbb --allPackages'
+# brazil-recursive-cmd --allPackages brazil-build
+alias brcbball='brazil-recursive-cmd --allPackages brazil-build'
 
-#
+# brazil-recursive-cmd <custom_command>
+# <custom_command> i.e. "git pull"
+alias brccustom='BRAZIL_VERBOSE=true brazil-recursive-cmd --allPackages'
+
+# brazil ws
 alias bws='brazil ws'
 
-#
-alias bwsuse='bws use -p'
+# brazil ws use --package
+alias bwsuse='brazil ws use --package'
 
-#
-alias bwscreate='bws create -n'
+# brazil ws create --root
+alias bwscreate='brazil ws create --root'
 
 
 # ---------------
