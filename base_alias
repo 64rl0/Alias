@@ -233,6 +233,9 @@ if [ "$(id -u)" -ne 0 ]; then
     # yum always as sudo
     alias yum='sudo yum'
 
+    # dnf always as sudo
+    alias dnf='sudo dnf'
+
     # apt always as sudo
     alias apt='sudo apt'
 fi
