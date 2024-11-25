@@ -31,7 +31,14 @@ fi
 alias c='clear'
 
 # Echo shell and path
-alias shell='echo -e "\033[1;33mSHELL:\033[0m"; echo -e "Shell in Use: $0\nShell Levels: $SHLVL"; echo -e "\n\033[1;33mPATH:\033[0m"; echo -e "\033[1;33m- \033[0m${PATH//:/\\n\033[1;33m- \033[0m}"; echo -e "\n\033[1;33mFPATH:\033[0m"; echo -e "\033[1;33m- \033[0m${FPATH//:/\\n\033[1;33m- \033[0m}"'
+alias shell='echo -e " \
+\033[1;33mSHELL:\033[0m \n \
+Shell in Use: $0 \n \
+Shell Levels: $SHLVL \n \
+\033[1;33mPATH:\033[0m \n \
+\033[1;33m- \033[0m${PATH//:/\\n\033[1;33m- \033[0m} \n \
+\033[1;33mFPATH:\033[0m \n \
+\033[1;33m- \033[0m${FPATH//:/\\n\033[1;33m- \033[0m}"'
 
 # Same as shell
 alias path='shell'
