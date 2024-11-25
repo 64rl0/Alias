@@ -36,9 +36,9 @@ alias shell='echo -e "\
 Shell in Use: $0 \n\
 Shell Levels: $SHLVL \n\n\
 \033[1;33mPATH directories:\033[0m \n\
-\033[1;33m|-- \033[0m${PATH//:/\\n\033[1;33m- \033[0m} \n\n\
+\033[1;33m|-- \033[0m${PATH//:/\\n\033[1;33m|-- \033[0m} \n\n\
 \033[1;33mFPATH directories:\033[0m \n\
-\033[1;33m|-- \033[0m${FPATH//:/\\n\033[1;33m- \033[0m}"'
+\033[1;33m|-- \033[0m${FPATH//:/\\n\033[1;33m|-- \033[0m}"'
 
 # Same as shell
 alias path='shell'
