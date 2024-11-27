@@ -106,13 +106,13 @@ alias ff='sudo find . -iname'
 # Grep
 # ----
 # Colorize the grep command output
+alias grep='grep --color=auto'
+
+# Colorize the grep command output
 alias egrep='egrep --color=auto'
 
 # Colorize the grep command output
 alias fgrep='fgrep --color=auto'
-
-# Colorize the grep command output
-alias grep='grep --color=auto'
 
 
 # -----------------------
@@ -318,6 +318,9 @@ alias bwsuse='brazil ws use --package'
 
 # brazil ws create --root
 alias bwscreate='brazil ws create --root'
+
+# brazil vs removemajorversions -vs
+alias bvsclean='brazil vs removemajorversions --versionSet'
 
 
 # ---------------
