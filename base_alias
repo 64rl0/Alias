@@ -288,9 +288,6 @@ alias bb='brazil-build'
 # brazil-build apollo-pkg
 alias bba='brazil-build apollo-pkg'
 
-# brazil-runtime-exec
-alias bre='brazil-runtime-exec'
-
 # brazil-recursive-cmd
 alias brc='brazil-recursive-cmd'
 
@@ -309,6 +306,12 @@ alias brcbball='brazil-recursive-cmd --allPackages brazil-build'
 # brazil-recursive-cmd <custom_command>
 # <custom_command> i.e. "git pull"
 alias brccustom='BRAZIL_VERBOSE=true brazil-recursive-cmd --allPackages'
+
+# brazil-runtime-exec
+alias bre='brazil-runtime-exec'
+
+# brazil-test-exec
+alias bte='brazil-test-exec'
 
 # brazil ws
 alias bws='brazil ws'
