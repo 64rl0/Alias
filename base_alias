@@ -326,6 +326,13 @@ alias bwscreate='brazil ws create --root'
 alias bvsclean='brazil vs removemajorversions --versionSet'
 
 
+# -------
+# RIP CLI
+# -------
+# Find AWS region info
+alias freg='ripcli regions | command grep -F -i'
+
+
 # ---------------
 # Tmux Management
 # ---------------
