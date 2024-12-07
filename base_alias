@@ -226,7 +226,7 @@ alias mx='chmod a+x'
 alias :q='exit'
 
 # Detach tmux and disconnect remote host
-alias drop='[[ "${-}" =~ i ]] && [[ -n "${SSH_TTY}" ]] && [[ -n "${TMUX}" ]] && tmux detach && exec exit'
+alias drop='[[ "${-}" =~ i ]] && [[ -n "${SSH_TTY}" ]] && [[ -n "${TMUX}" ]] && { tmux detach; kill -HUP $PPID; }'
 
 # System reboot
 alias reboot='sudo /sbin/reboot'
