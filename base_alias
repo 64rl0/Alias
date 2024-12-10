@@ -225,8 +225,10 @@ alias mx='chmod a+x'
 # exit like vim
 alias :q='exit'
 
-# Detach tmux and disconnect remote host
-alias drop='[[ "${-}" =~ i ]] && [[ -n "${SSH_TTY}" ]] && [[ -n "${TMUX}" ]] && kill -HUP $(ps -eo pid,tty,command | grep -v "grep" | grep "ssh" | grep $(tty | sed "s|/dev/||" | sed "s|/[^/]*$||") | awk "{print \$1}")'
+# Save Session, detach tmux and disconnect remote host
+alias drop='[[ "${-}" =~ i ]] && [[ -n "${SSH_TTY}" ]] && [[ -n "${TMUX}" ]] && \
+'"${HOME}/.config/tmux/plugins/tmux-resurrect/scripts/save.sh"' && \
+kill -HUP $(ps -eo pid,tty,command | grep -v "grep" | grep "ssh" | grep $(tty | sed "s|/dev/||" | sed "s|/[^/]*$||") | awk "{print \$1}")'
 
 # System reboot
 alias reboot='sudo /sbin/reboot'
