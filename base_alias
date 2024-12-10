@@ -227,7 +227,7 @@ alias :q='exit'
 
 # Save Session, detach tmux and disconnect remote host
 alias drop='[[ "${-}" =~ i ]] && [[ -n "${SSH_TTY}" ]] && [[ -n "${TMUX}" ]] && \
-'"tmux run-shell ${HOME}/.config/tmux/plugins/tmux-resurrect/scripts/save.sh quiet"' && \
+'"${HOME}/.config/tmux/plugins/tmux-resurrect/scripts/save.sh quiet"' && \
 kill -HUP $(ps -eo pid,tty,command | grep -v "grep" | grep "ssh" | grep $(tty | sed "s|/dev/||" | sed "s|/[^/]*$||") | awk "{print \$1}")'
 
 # System reboot
