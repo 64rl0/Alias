@@ -101,6 +101,9 @@ alias wget='wget -c'
 # Quickly search for file in current directory
 alias ff='sudo find . -iname'
 
+# Preferred 'yazi' implementation
+alias y='yazi_cd_into_dir'
+
 
 # ----
 # Grep
@@ -390,3 +393,16 @@ else
     # Days left in year (Linux)
     alias daysleft='echo -e "There are $(($(date +%j -d"Dec 31, $(date +%Y)")-$(date +%j))) days left in year $(date +%Y)."'
 fi
+
+
+# ---------
+# FUNCTIONS
+# ---------
+function yazi_cd_into_dir() {
+    local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+    yazi "$@" --cwd-file="${tmp}"
+    if cwd="$(command cat -- "${tmp}")" && [ -n "${cwd}" ] && [ "${cwd}" != "${PWD}" ]; then
+        builtin cd -- "${cwd}"
+    fi
+    rm -f -- "${tmp}"
+}
