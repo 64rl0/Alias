@@ -66,7 +66,7 @@ alias .........='cd ../../../../../../../../'
 # Check if 'bat' is installed and configure 'cat' alias
 if bat --version >/dev/null 2>&1; then
     # Preferred 'cat' implementation
-    alias cat="bat"
+    alias cat='bat'
     # Get handle on the real 'cat' command
     alias realcat='/bin/cat'
 fi
