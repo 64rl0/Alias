@@ -65,20 +65,8 @@ alias .........='cd ../../../../../../../../'
 
 # Check if 'bat' is installed and configure 'cat' alias
 if bat --version >/dev/null 2>&1; then
-    # Replacing cat with bat
-    # By default, bat pipes its own output to a pager (e.g. less) if the
-    # output is too large for one screen. If you would rather bat work like
-    # cat all the time (never page output), you can set --paging=never as an
-    # option.
-
-    if [[ $(uname -s) == "Darwin" ]]; then
-        # Preferred 'cat' implementation (macOS)
-        alias cat="bat --theme='Monokai Extended' --paging=never"
-    else
-        # Preferred 'cat' implementation (Linux)
-        alias cat="bat --theme='Monokai Extended'"
-    fi
-
+    # Preferred 'cat' implementation
+    alias cat="bat"
     # Get handle on the real 'cat' command
     alias realcat='/bin/cat'
 fi
