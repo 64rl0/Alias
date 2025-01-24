@@ -25,6 +25,9 @@ alias devdsk6='ssh devdsk6'
 # ssh into DevDsk7
 alias devdsk7='ssh devdsk7'
 
+# ssh into DevDsk10
+alias devdsk7='ssh devdsk10'
+
 # axe into CDM i-0e025eaf7367a5f08 DevDsk8
 alias devdsk8='ssh devdsk8'
 
