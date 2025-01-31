@@ -1,0 +1,17 @@
+# dev-dsk-carlogtt-1c-8f3d7f37.eu-west-1.amazon.com_alias
+# vim: ft=sh
+
+#   __|    \    _ \  |      _ \   __| __ __| __ __|
+#  (      _ \     /  |     (   | (_ |    |      |
+# \___| _/  _\ _|_\ ____| \___/ \___|   _|     _|
+
+# ----------------------------------------------------------------------
+# Description: dev-dsk-carlogtt-1c-8f3d7f37.eu-west-1.amazon.com aliases
+# ----------------------------------------------------------------------
+
+
+# ------------------------
+# Amazon Specific Commands
+# ------------------------
+# Show DevDsk identity
+alias devdsk='echo -e "DevDsk9 -> $(uname -n)"'
