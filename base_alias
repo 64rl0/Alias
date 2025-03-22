@@ -281,6 +281,9 @@ alias gpl='git pull origin HEAD'
 # brazil-build
 alias bb='brazil-build'
 
+# brazil-build release
+alias bb='brazil-build release'
+
 # brazil-recursive-cmd
 alias br='brazil-recursive-cmd'
 
@@ -322,7 +325,7 @@ alias bwscreate='brazil ws create --root'
 alias bvsclean='brazil vs removemajorversions --versionSet'
 
 # brazil ws sync
-alias bwssync='brazil ws sync'
+alias bwss='brazil ws sync'
 
 
 # -------
