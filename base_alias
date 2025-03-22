@@ -281,20 +281,17 @@ alias gpl='git pull origin HEAD'
 # brazil-build
 alias bb='brazil-build'
 
-# brazil-build apollo-pkg
-alias bba='brazil-build apollo-pkg'
-
 # brazil-recursive-cmd
-alias brc='brazil-recursive-cmd'
+alias br='brazil-recursive-cmd'
 
 # brazil-recursive-cmd --allPackages
-alias brcall='brazil-recursive-cmd --allPackages'
+alias brall='brazil-recursive-cmd --allPackages'
 
 # brazil-recursive-cmd brazil-build
-alias brcbb='brazil-recursive-cmd brazil-build'
+alias brbb='brazil-recursive-cmd brazil-build'
 
-# brazil-recursive-cmd brazil-build apollo-pkg
-alias brcbba='brazil-recursive-cmd brazil-build apollo-pkg'
+# brazil-recursive-cmd brazil-build release
+alias brbbr='brazil-recursive-cmd brazil-build release'
 
 # brazil-recursive-cmd --allPackages brazil-build
 alias bbb='brazil-recursive-cmd --allPackages brazil-build'
@@ -323,6 +320,9 @@ alias bwscreate='brazil ws create --root'
 
 # brazil vs removemajorversions -vs
 alias bvsclean='brazil vs removemajorversions --versionSet'
+
+# brazil ws sync
+alias bwssync='brazil ws sync'
 
 
 # -------
