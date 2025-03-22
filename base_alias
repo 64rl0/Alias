@@ -282,7 +282,7 @@ alias gpl='git pull origin HEAD'
 alias bb='brazil-build'
 
 # brazil-build release
-alias bb='brazil-build release'
+alias bbr='brazil-build release'
 
 # brazil-recursive-cmd
 alias br='brazil-recursive-cmd'
