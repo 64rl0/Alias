@@ -327,6 +327,9 @@ alias bvsclean='brazil vs removemajorversions --versionSet'
 # brazil ws sync
 alias bwss='brazil ws sync'
 
+# brazil-build clean && brazil ws sync && brazil-build release
+alias bbx='brazil-build clean && brazil ws sync && brazil-build release'
+
 
 # -------
 # RIP CLI
