@@ -328,7 +328,7 @@ alias bvsclean='brazil vs removemajorversions --versionSet'
 alias bwss='brazil ws sync'
 
 # brazil-build clean && brazil ws sync && brazil-build release
-alias bbx='brazil-build clean && brazil ws sync && brazil-build release'
+alias bbx='brazil ws show && echo -e "\n\n\n" && brazil-build clean && echo -e "\n\n\n" && brazil ws sync && echo -e "\n\n\n" && brazil-build release'
 
 
 # -------
