@@ -151,7 +151,7 @@ alias psa='sudo ps -e -o "pid,ppid,stat,uid,user,pri,ni,tty,%cpu,%mem,rss,vsz,st
 alias fps='psa | head -n 1; psa | grep -F -i'
 
 # Kill Pycharm server
-alias killpc='sudo pkill -9 -fi pycharm'
+alias killpc='out=$(sudo pkill --signal=KILL --echo --full --ignore-case pycharm); echo $out; unset out'
 
 # Display open sockets
 alias lsock='sudo lsof -i'
