@@ -150,6 +150,9 @@ alias psa='sudo ps -e -o "pid,ppid,stat,uid,user,pri,ni,tty,%cpu,%mem,rss,vsz,st
 # Find process matching string
 alias fps='psa | head -n 1; psa | grep -F -i'
 
+# Kill Pycharm server
+psa | grep -F -i "pycharm" | grep -v grep | awk '{printf "%s\n", $1}' | xargs -I {} sh -c "echo Killing {}; sudo kill -9 {}; echo Killed {}; echo"
+
 # Display open sockets
 alias lsock='sudo lsof -i'
 
