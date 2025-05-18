@@ -50,6 +50,13 @@ alias truecolor='printf "\x1b[38;2;255;100;0mTRUECOLOR (should be red)\x1b[0m\n"
 alias fixstty='stty sane'
 
 
+# ------
+# icarus
+# ------
+# invoke forge
+alias ibf='icarus builder forge'
+
+
 # ----------------
 # General Commands
 # ----------------
