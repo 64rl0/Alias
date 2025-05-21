@@ -54,7 +54,7 @@ alias fixstty='stty sane'
 # icarus
 # ------
 # invoke forge
-alias ibf='icarus builder forge'
+alias ibb='icarus builder build'
 
 
 # ----------------
