@@ -16,3 +16,4 @@
 # Show DevDsk identity
 alias devdsk='echo -e "DevDsk7 -> $(uname -n)"'
 
+alias kiro='kiro-cli'
