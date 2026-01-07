@@ -1,0 +1,19 @@
+# dev-dsk-carlogtt-1b-e1ebc48c.eu-west-1.amazon.com_alias
+# vim: ft=sh
+
+#   __|    \    _ \  |      _ \   __| __ __| __ __|
+#  (      _ \     /  |     (   | (_ |    |      |
+# \___| _/  _\ _|_\ ____| \___/ \___|   _|     _|
+
+# ----------------------------------------------------------------------
+# Description: dev-dsk-carlogtt-1b-e1ebc48c.eu-west-1.amazon.com aliases
+# ----------------------------------------------------------------------
+
+
+# ------------------------
+# Amazon Specific Commands
+# ------------------------
+# Show DevDsk identity
+alias devdsk='echo -e "DevDsk14 -> $(uname -n)"'
+
+alias kiro='kiro-cli'
