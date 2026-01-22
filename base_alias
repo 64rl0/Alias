@@ -357,19 +357,26 @@ alias freg='ripcli regions | command grep -F -i'
 alias tm='tmux'
 
 # Attach to a tmux session
-alias tma='tm attach-session'
+alias tma='tmux attach-session'
 
 # Attach to a tmux session with name
-alias tman='tma -t'
+alias tman='tmux attach-session -t'
 
 # List tmux sessions
-alias tmls='tm list-sessions'
+alias tmls='tmux list-sessions'
 
 # Start a new tmux session
-alias tms='tm new-session'
+alias tms='tmux new-session'
 
 # Start a new tmux session with name
-alias tmsn='tms -s'
+alias tmsn='tmux new-session -s'
+
+
+# --------
+# Programs
+# --------
+# opencode
+alias oc='opencode'
 
 
 # ---------
