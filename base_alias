@@ -90,7 +90,7 @@ alias vi='vim'
 alias svim='sudo vim'
 
 # Preferred 'less' implementation
-alias less='less -FRXc'
+alias less='less -FRX'
 
 # Preferred 'wget' implementation
 alias wget='wget -c'
