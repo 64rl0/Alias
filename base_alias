@@ -343,6 +343,19 @@ alias bwss='brazil ws sync'
 alias bbx='brazil ws show && echo -e "\n\n\n" && brazil-build clean && echo -e "\n\n\n" && brazil ws sync && echo -e "\n\n\n" && brazil-build release'
 
 
+# ----
+# CRUX
+# ----
+# cr auto-publish
+alias crp='--auto-publish'
+
+# cr auto-merge
+alias crm='--auto-merge'
+
+# cr auto-publish and auto-merge
+alias crpm='--auto-publish --auto-merge'
+
+
 # -------
 # RIP CLI
 # -------
